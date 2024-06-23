@@ -1,7 +1,6 @@
 """
-Introduction to API Development (Part 2)
-NTUOSS TGIFHacks #132
-by Jay Gupta for NTU Open Source Society
+Introduction to API Development
+SMU .hack 2024
 """
 
 # Imports
@@ -50,7 +49,7 @@ class Member(BaseModel):
     
     # Allow ORM fetch
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 # Methods for interacting with the SQLite Database
 # ------------------------------------------------
