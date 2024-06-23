@@ -4,6 +4,7 @@ SMU .hack 2024
 """
 
 # Imports
+import uvicorn
 from fastapi import FastAPI, Depends, status
 from pydantic import BaseModel
 from typing import List, Optional
@@ -78,3 +79,7 @@ def get_member_view(member_id: int, db: Session = Depends(get_db)):
 @app.get('/healthcheck', status_code=status.HTTP_200_OK)
 def perform_healthcheck():
     return {'healthcheck': 'Everything OK!'}
+
+# Deployment 
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
