@@ -24,7 +24,7 @@ $ pip install -r requirements.txt
 2. [Railway Dashboard](https://railway.app/dashboard) -> `New Project` -> `Deploy from GitHub Repo`
 3. Follow the on-screen instructions to connect your GitHub account to Railway. 
 3. Select the GitHub `Repository Name` (e.g., `SMU.hack-API-Development`) ->  `Deploy now`
-4. Go to `Project Settings`(https://dashboard.heroku.com/account) -> `Generate Domain`
+4. Go to `Project Settings` -> `Generate Domain`
 5. Go to the `deployment url` to preview the API. 
 
 ### GitHub Actions Setup

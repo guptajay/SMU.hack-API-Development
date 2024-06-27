@@ -22,7 +22,7 @@ Before you start the workshop, make sure you have these:
 * Python 3.6+ installed in your system
 * A code editor such as Visual Studio Code
 * Postman API Platform Desktop App
-* Heroku Free Account
+* Railway Free Account
 
 ## Errors
 
