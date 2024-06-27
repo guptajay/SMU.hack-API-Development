@@ -14,10 +14,7 @@ understanding the various security mechanisms (Basic, Keys, Tokens, etc.) for se
 APIs and dive deep into OAuth2.0. Finally, we will wrap up with another important
 concept called CORS when building web APIs.
 
-In a hands-on exercise, you will be introduced to GitHub Actions (CI/CD platform)
-and Railway (Cloud Application Provider) will be used in conjunction to deploy
-the REST API in an automated fashion. Afterwards, in the second hands-on exercise,
-you will learn to implement OAuth2.0 with the FastAPI framework in Python.
+In a hands-on exercise, you will be introduced to [GitHub Actions](https://github.com/features/actions) (CI/CD platform) and [Railway](https://railway.app/) (Cloud Application Provider) will be used in conjunction to deploy the REST API in an automated fashion. Afterwards, in the second hands-on exercise, you will learn to implement OAuth2.0 with the FastAPI framework in Python.
 
 
 ## Prerequisites
