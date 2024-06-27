@@ -15,7 +15,7 @@ APIs and dive deep into OAuth2.0. Finally, we will wrap up with another importan
 concept called CORS when building web APIs.
 
 In a hands-on exercise, you will be introduced to GitHub Actions (CI/CD platform)
-and Heroku (Cloud Application Provider) will be used in conjunction to deploy
+and Railway (Cloud Application Provider) will be used in conjunction to deploy
 the REST API in an automated fashion. Afterwards, in the second hands-on exercise,
 you will learn to implement OAuth2.0 with the FastAPI framework in Python.
 
